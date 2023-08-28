@@ -4,7 +4,8 @@ function getFormvalue() {
 	let lname = document.querySelector('#form1 input[name="lname"]')
 
 	let first = fname.value
-	let last = fname.value;
-	alert(fname+" "+lname);
+	let last = lname.value;
+	alert(first+" "+last);
+	
 
 }
